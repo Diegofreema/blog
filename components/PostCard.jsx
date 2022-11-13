@@ -29,8 +29,8 @@ const PostCard = ({ post }) => {
             {post.author.name}
           </p>
         </div>
-        <div className="font-medium text-gray-700 flex items-center space-x-2">
-          <BsFillCalendarXFill className="text-pink-600" />
+        <div className="font-medium text-gray-700 flex items-center justify-center space-x-2">
+          <BsFillCalendarXFill className="text-black" />
           <span>{moment(post.createdAt).format('MMM DD, YYYY')}</span>
         </div>
       </div>
